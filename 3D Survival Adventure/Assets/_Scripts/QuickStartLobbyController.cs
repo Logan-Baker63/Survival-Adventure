@@ -11,15 +11,21 @@ public class QuickStartLobbyController : MonoBehaviourPunCallbacks
     [SerializeField] private GameObject QuickCancelButton;
     [SerializeField] private int RoomSize; //sets the amount of players in a room
 
+    private void Start()
+    {
+        QuickCancelButton.SetActive(false);
+    }
+
     public override void OnConnectedToMaster() //callback for when the first connection is made
     {
         PhotonNetwork.AutomaticallySyncScene = true;
-        MainMenu.SetActive(true);
+        //MainMenu.SetActive(true);
     }
 
     public void QuickStart() //run by 'Find Game' button
     {
         MainMenu.SetActive(false);
+        QuickCancelButton.SetActive(true);
         QuickCancelButton.SetActive(true);
         PhotonNetwork.JoinRandomRoom(); //tries to join an existing room
         Debug.Log("Quick Start");

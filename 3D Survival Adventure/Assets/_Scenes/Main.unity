@@ -789,7 +789,7 @@ Transform:
   - {fileID: 1508755355}
   - {fileID: 416225418}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &89980978
 PrefabInstance:
@@ -3848,12 +3848,12 @@ MonoBehaviour:
   MainMenu: {fileID: 735877617}
   JoinMenu: {fileID: 1114753632}
   HostMenu: {fileID: 578369224}
-  UsernameInput: {fileID: 1600954274}
   JoinGameInput: {fileID: 1440658832}
   HostGameInput: {fileID: 1891572737}
-  SetNicknameButton: {fileID: 1834250700}
+  UsernameInput: {fileID: 1600954274}
   NicknameSuccessText: {fileID: 592798786}
   NicknameFailText: {fileID: 1260072219}
+  PlayerInformation: {fileID: 1890467287}
 --- !u!4 &411097431
 Transform:
   m_ObjectHideFlags: 0
@@ -5296,7 +5296,7 @@ Transform:
   m_LocalScale: {x: 17.02709, y: 17.02709, z: 17.02709}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &551619536
 PrefabInstance:
@@ -5623,7 +5623,7 @@ RectTransform:
   m_Children:
   - {fileID: 952623802}
   m_Father: {fileID: 937080038}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7180,9 +7180,8 @@ RectTransform:
   - {fileID: 1834250701}
   - {fileID: 592798787}
   - {fileID: 1260072220}
-  - {fileID: 1261573354}
   m_Father: {fileID: 937080038}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7589,6 +7588,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 677015272}
+        m_TargetAssemblyTypeName: QuickStartLobbyController, Assembly-CSharp
+        m_MethodName: QuickStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &793307336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7647,18 +7658,6 @@ MonoBehaviour:
         - m_Target: {fileID: 793307339}
           m_TargetAssemblyTypeName: ButtonHover, Assembly-CSharp
           m_MethodName: CursorHover
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 677015272}
-          m_TargetAssemblyTypeName: QuickStartLobbyController, Assembly-CSharp
-          m_MethodName: QuickStart
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -9145,11 +9144,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 748974604}
+  - {fileID: 1261573354}
   - {fileID: 735877618}
   - {fileID: 1114753633}
   - {fileID: 578369225}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11120,7 +11120,7 @@ RectTransform:
   - {fileID: 214472177}
   - {fileID: 815797213}
   m_Father: {fileID: 937080038}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11205,7 +11205,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter Username...
+  m_text: Enter Nickname...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04168a396c1c4fb49b017db264b00793, type: 2}
   m_sharedMaterial: {fileID: 2476312533721895455, guid: 04168a396c1c4fb49b017db264b00793, type: 2}
@@ -12034,12 +12034,12 @@ RectTransform:
   m_Children:
   - {fileID: 893029170}
   - {fileID: 1055379258}
-  m_Father: {fileID: 735877618}
-  m_RootOrder: 7
+  m_Father: {fileID: 937080038}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 177}
+  m_AnchoredPosition: {x: -8, y: 168.8}
   m_SizeDelta: {x: 150, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261573355
@@ -12062,18 +12062,6 @@ MonoBehaviour:
         - m_Target: {fileID: 1261573356}
           m_TargetAssemblyTypeName: ButtonHover, Assembly-CSharp
           m_MethodName: CursorHover
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 677015272}
-          m_TargetAssemblyTypeName: QuickStartLobbyController, Assembly-CSharp
-          m_MethodName: QuickCancel
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -12158,6 +12146,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1261573356}
         m_TargetAssemblyTypeName: ButtonHover, Assembly-CSharp
         m_MethodName: CursorExitHover
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 677015272}
+        m_TargetAssemblyTypeName: QuickStartLobbyController, Assembly-CSharp
+        m_MethodName: QuickCancel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13582,7 +13582,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1437591701
 PrefabInstance:
@@ -16682,7 +16682,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1741176195
 PrefabInstance:
@@ -16815,7 +16815,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Username:'
+  m_text: 'Nickname:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04168a396c1c4fb49b017db264b00793, type: 2}
   m_sharedMaterial: {fileID: 2476312533721895455, guid: 04168a396c1c4fb49b017db264b00793, type: 2}
@@ -17827,6 +17827,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b428f431bec4ad4dbb012a63ee42ad2, type: 3}
+--- !u!1 &1890467285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1890467286}
+  - component: {fileID: 1890467287}
+  m_Layer: 0
+  m_Name: PlayerInformation
+  m_TagString: PlayerInformation
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1890467286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890467285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.675022, y: 5.468837, z: 20.19349}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1890467287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890467285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6497d1574f69ea74da3019e92d81e792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nickname: 
 --- !u!1 &1891572737
 GameObject:
   m_ObjectHideFlags: 0

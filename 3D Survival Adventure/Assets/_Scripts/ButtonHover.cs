@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class ButtonHover : MonoBehaviour
 {
 
-    string m_StartingColour = "grey";
-    string m_HoverColour = "white";
+    //string m_StartingColour = "grey";
+    //string m_HoverColour = "white";
 
     Image m_BackgroundImage;
     

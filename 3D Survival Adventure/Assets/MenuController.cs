@@ -11,15 +11,17 @@ public class MenuController : MonoBehaviourPunCallbacks
     [SerializeField] private GameObject JoinMenu;
     [SerializeField] private GameObject HostMenu;
 
-    [SerializeField] private GameObject UsernameInput;
     [SerializeField] private GameObject JoinGameInput;
     [SerializeField] private GameObject HostGameInput;
 
+    [SerializeField] private GameObject UsernameInput;
+
     private string Username;
 
-    [SerializeField] private GameObject SetNicknameButton;
     [SerializeField] private GameObject NicknameSuccessText;
     [SerializeField] private GameObject NicknameFailText;
+
+    [SerializeField] private PlayerInformation PlayerInformation;
 
     private void Awake()
     {
@@ -33,21 +35,6 @@ public class MenuController : MonoBehaviourPunCallbacks
         MainMenu.SetActive(true);
     }
 
-    public void HideUI()
-    {
-        MainMenu.SetActive(false);
-        JoinMenu.SetActive(false);
-        HostMenu.SetActive(false);
-        NicknameSuccessText.SetActive(false);
-        NicknameFailText.SetActive(false);
-
-    }
-
-    private void Update()
-    {
-        
-    }
-
     public void SetNickname()
     {
         if (UsernameInput.GetComponent<TextMeshProUGUI>().text.Length != 1 && UsernameInput.GetComponent<TextMeshProUGUI>().text.Length <= 30)
@@ -56,6 +43,7 @@ public class MenuController : MonoBehaviourPunCallbacks
             Debug.Log(Username);
             NicknameFailText.SetActive(false);
             NicknameSuccessText.SetActive(true);
+            PlayerInformation.nickname = Username;
         }
         else
         {
@@ -63,6 +51,23 @@ public class MenuController : MonoBehaviourPunCallbacks
             NicknameFailText.SetActive(true);
         }
     }
+
+    public void HideUI()
+    {
+        MainMenu.SetActive(false);
+        JoinMenu.SetActive(false);
+        HostMenu.SetActive(false);
+        //NicknameSuccessText.SetActive(false);
+        //NicknameFailText.SetActive(false);
+
+    }
+
+    private void Update()
+    {
+        
+    }
+
+    
 
     public override void OnConnectedToMaster()
     {
