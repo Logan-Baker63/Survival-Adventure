@@ -2025,3 +2025,12 @@ Received Import Request.
 Start importing Assets/_Scripts/Procedural Generationn/Terrain.shader using Guid(24a08928505957541a7c54b07966e44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d02bb74fe14f829b48a1af3438b7491') in 0.003956 seconds
   Import took 0.010011 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 733.736875 seconds.
+  path: Assets/_Scripts/Procedural Generationn/TerrainURP.shadergraph
+  artifactKey: Guid(72008d3881fd8f54785f0ee6947380d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Procedural Generationn/TerrainURP.shadergraph using Guid(72008d3881fd8f54785f0ee6947380d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c70520188b02f47394d833a831cad09') in 0.008163 seconds
+  Import took 0.015664 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
