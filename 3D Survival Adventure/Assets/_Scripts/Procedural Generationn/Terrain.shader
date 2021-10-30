@@ -31,7 +31,7 @@ Shader "Custom/Terrain"
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
             float heightPercent = inverseLerp(minHeight, maxHeight, IN.worldPos.y);
-            o.Albedo = float3(0, 1, 0);//heightPercent;
+            o.Albedo = heightPercent;
         }
         ENDCG
     }
