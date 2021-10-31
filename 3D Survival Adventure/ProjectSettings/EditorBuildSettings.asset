@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/GameMap.unity
     guid: 5d96a4df5f37f674f92c9f1028d09e49
+  - enabled: 0
+    path: Assets/_Scenes/ProceduralGenTest.unity
+    guid: efc6b232e565d084aa3910de4da879ce
   m_configObjects: {}
