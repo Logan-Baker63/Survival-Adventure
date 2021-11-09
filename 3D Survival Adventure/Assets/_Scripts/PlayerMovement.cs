@@ -52,7 +52,11 @@ public class PlayerMovement : MonoBehaviourPun
 
         Vector3 calculatedMovement = (forward * movement.z + right * movement.x).normalized;
 
-        transform.rotation = Quaternion.LookRotation(calculatedMovement);
+
+        if (calculatedMovement.magnitude > 0.01f) 
+        { 
+            transform.rotation = Quaternion.LookRotation(calculatedMovement); 
+        }
 
 
         ySpeed += Physics.gravity.y * Time.deltaTime;

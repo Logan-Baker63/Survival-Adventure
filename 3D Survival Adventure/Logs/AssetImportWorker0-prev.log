@@ -15,11 +15,11 @@ C:/Users/logan/Documents/GitHub/Survival Adventure/3D Survival Adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58841
+60729
 Successfully changed project path to: C:/Users/logan/Documents/GitHub/Survival Adventure/3D Survival Adventure
 C:/Users/logan/Documents/GitHub/Survival Adventure/3D Survival Adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.05 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,572 +35,108 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002279 seconds.
+Registered in 0.001903 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.673 seconds
+- Completed reload, in  1.557 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004801 seconds.
+Registered in 0.003790 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.759 seconds
+- Completed reload, in  0.755 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1605 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 77.0 MB.
-System memory in use after: 77.0 MB.
+System memory in use after: 77.1 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2051.
-Total: 2.412000 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.055200 ms MarkObjects: 1.929200 ms  DeleteObjects: 0.124400 ms)
+Total: 2.607500 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.219300 ms  DeleteObjects: 0.112700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e551abb4e639bafbedf5fa26397ad3') in 0.024307 seconds
-  Import took 0.027314 seconds .
+  path: Assets/_ProceduralGeneration/Terrain Assets/Default Terrain.asset
+  artifactKey: Guid(84595c720728eec448fe7a3f62e192fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ProceduralGeneration/Terrain Assets/Default Terrain.asset using Guid(84595c720728eec448fe7a3f62e192fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd29a99c3ae59470243961a999b287fe') in 0.029067 seconds
+  Import took 0.031941 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.297354 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d4b0bad5e2b58c32b5472087458cce') in 0.002635 seconds
-  Import took 0.005687 seconds .
+  Time since last request: 0.880265 seconds.
+  path: Assets/_ProceduralGeneration/Terrain Assets/Default Noise.asset
+  artifactKey: Guid(56fc52f2392a63f4593b89637ceca33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ProceduralGeneration/Terrain Assets/Default Noise.asset using Guid(56fc52f2392a63f4593b89637ceca33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c4935da2b893cb643fdbcfbf9ecd6d') in 0.003724 seconds
+  Import took 0.006743 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.585289 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d31482b0cf1d8f5f5a2d55229d4e75e') in 0.004499 seconds
-  Import took 0.007693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.250607 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13d6e4b30cb080855b426ca77cd0552') in 0.003998 seconds
-  Import took 0.007179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.120033 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b3e726a413db3d292c37fa425de1c1') in 0.002225 seconds
-  Import took 0.005355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.930143 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a83b4c358bc69b21498526138d241d') in 0.003929 seconds
-  Import took 0.006885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.347778 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd0d2c0b55008f0bd09d6c85bd702b7') in 0.004131 seconds
-  Import took 0.007337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.403174 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6ab30efbef2a3d1f47a81f59033007') in 0.008805 seconds
-  Import took 0.012457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002247 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6ab30efbef2a3d1f47a81f59033007') in 0.003276 seconds
-  Import took 0.007106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.164467 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82698f16d07475b051068f165733cd46') in 0.003051 seconds
-  Import took 0.007393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.718617 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4409b6ca68b9bbd0d805b651558792') in 0.006490 seconds
-  Import took 0.009707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001001 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4409b6ca68b9bbd0d805b651558792') in 0.001949 seconds
-  Import took 0.004522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.080915 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08dc264a7456c99a9389b5271cc0838') in 0.002440 seconds
-  Import took 0.005280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.786330 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7160c94c7fa39fec4356ae07e8e4d99d') in 0.002634 seconds
-  Import took 0.005465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.070286 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee20d9b93f289a15d6776f56700feebb') in 0.002272 seconds
-  Import took 0.005116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.912493 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114cd6fc4e63e8ba39f695717b6162e6') in 0.004062 seconds
-  Import took 0.007196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.554342 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fcff38c50e7c2b57e00ba93647ef08') in 0.003341 seconds
-  Import took 0.006016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.740328 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6a2e55e76ff816d40e28e0cee205a8') in 0.003570 seconds
-  Import took 0.006701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.857267 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af9a8523ac96bbb3c44c6405a3d68d1') in 0.003583 seconds
-  Import took 0.006428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.571373 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1d26eb77fce759b14741410d42086c') in 0.003282 seconds
-  Import took 0.006058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.724534 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a45fd69a8fa14f19083ed6db586978') in 0.002272 seconds
-  Import took 0.005084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.508983 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4eb29e2edb96724fcee70057de9195') in 0.004351 seconds
-  Import took 0.007508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.454562 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75de34747b5e0a4760d14ac8135a35fa') in 0.003370 seconds
-  Import took 0.006324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.877651 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc65160e61988417aa9a9a02688dcea8') in 0.003338 seconds
-  Import took 0.006368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.625849 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4fd2653d491c47048fd1ee4f622095') in 0.003924 seconds
-  Import took 0.007131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.397569 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a69b115927bf750ad2406e26aed2c32') in 0.003501 seconds
-  Import took 0.006429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.064692 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953ab5f148bff0ad4a0e66dfc77fc361') in 0.003546 seconds
-  Import took 0.006740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.434326 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6070b036dd0c124bd942b890c39fdf') in 0.003958 seconds
-  Import took 0.007099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.688278 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67012906ce82afd79ada8baa890ae283') in 0.004286 seconds
-  Import took 0.007052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.979998 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4011a4b227376a9d9dbf99ef214531a9') in 0.003544 seconds
-  Import took 0.006477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.717726 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2209138fa13a4a1dc1acb5bfc80894') in 0.003429 seconds
-  Import took 0.006124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.659612 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60de74435250ca70914f4778f8a68382') in 0.004007 seconds
-  Import took 0.006896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.465985 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6caf9242deedb691605fadc741dd3e1') in 0.003247 seconds
-  Import took 0.006106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.887573 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af5660a871ef93e57400b7e7e9b9207') in 0.003874 seconds
-  Import took 0.006998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.356090 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26178e5080bac281a1a5917face64fb2') in 0.004017 seconds
-  Import took 0.006858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 135.433010 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4129022f1e005027bfeb93e4cbecebb') in 0.003365 seconds
-  Import took 0.006212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.121491 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce2968ee1a1a6da993712d60299bb9b') in 0.003605 seconds
-  Import took 0.006570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.371868 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeb6e10c05550d41870b7ca92e8f622') in 0.002472 seconds
-  Import took 0.005467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.470181 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7259931875a8ec446a4ec7d6b5eb64f') in 0.003734 seconds
-  Import took 0.006759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.790478 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e98ea245348ae97732ffee7b1984c21') in 0.003996 seconds
-  Import took 0.006994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.898269 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22952f8debdddc17ab406c6ee7a18cde') in 0.004044 seconds
-  Import took 0.007484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.148512 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6240cfd6ac65d53a4f7a406c2f74d7') in 0.003546 seconds
-  Import took 0.006515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.565097 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c722811c94a8e8f03af4f956c8c0ea1') in 0.004189 seconds
-  Import took 0.007400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 190.461597 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a855604172d9467b1f8453855f3716') in 0.003303 seconds
-  Import took 0.006492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.225981 seconds.
-  path: Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs
-  artifactKey: Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Scripts/Procedural Generationn/EndlessTerrain.cs using Guid(0dcd702c152613f4395ac1720073bcd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3942d5cd88fc5ac7d061e0cef4368556') in 0.004078 seconds
-  Import took 0.007357 seconds .
+  Time since last request: 0.001726 seconds.
+  path: Assets/_ProceduralGeneration/Terrain Assets/Default Noise.asset
+  artifactKey: Guid(56fc52f2392a63f4593b89637ceca33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ProceduralGeneration/Terrain Assets/Default Noise.asset using Guid(56fc52f2392a63f4593b89637ceca33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c4935da2b893cb643fdbcfbf9ecd6d') in 0.003766 seconds
+  Import took 0.006472 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.119369 seconds.
+Registered in 0.003794 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.709 seconds
+- Completed reload, in  0.746 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1584 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 75.8 MB.
 System memory in use after: 75.9 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2055.
-Total: 1.889300 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.528400 ms  DeleteObjects: 0.081200 ms)
+Total: 2.752900 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.391100 ms  DeleteObjects: 0.087200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 539.521885 seconds.
-  path: Assets/_ProceduralGeneration/Terrain Assets/Default Texture.asset
-  artifactKey: Guid(18f5f2f44e0912d41acbb114700c866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ProceduralGeneration/Terrain Assets/Default Texture.asset using Guid(18f5f2f44e0912d41acbb114700c866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fb8e54406d6c9a7a22350894b6420e') in 0.072865 seconds
-  Import took 0.075957 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003828 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1583 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 75.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2058.
-Total: 1.936300 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.476400 ms  DeleteObjects: 0.075400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004041 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.730 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1583 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 75.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2061.
-Total: 2.023500 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.666100 ms  DeleteObjects: 0.083100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004073 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1583 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 75.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2064.
-Total: 1.947300 ms (FindLiveObjects: 0.229000 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.606400 ms  DeleteObjects: 0.071900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004018 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1583 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 75.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2067.
-Total: 1.893500 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.581000 ms  DeleteObjects: 0.085100 ms)
+  Time since last request: 193.120789 seconds.
+  path: Assets/_Scenes/ProceduralGenTest.unity
+  artifactKey: Guid(efc6b232e565d084aa3910de4da879ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/ProceduralGenTest.unity using Guid(efc6b232e565d084aa3910de4da879ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55ab9a1be814447a8c41f1c956ff29d') in 0.020623 seconds
+  Import took 0.024241 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1755.756270 seconds.
-  path: Assets/_ProceduralGeneration/Terrain Assets/Default Noise.asset
-  artifactKey: Guid(56fc52f2392a63f4593b89637ceca33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ProceduralGeneration/Terrain Assets/Default Noise.asset using Guid(56fc52f2392a63f4593b89637ceca33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d87bfb6a2931c9bfae9141b1ea1ff59') in 0.019411 seconds
-  Import took 0.022436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.798151 seconds.
-  path: Assets/_ProceduralGeneration/Terrain Assets/Default Terrain.asset
-  artifactKey: Guid(84595c720728eec448fe7a3f62e192fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ProceduralGeneration/Terrain Assets/Default Terrain.asset using Guid(84595c720728eec448fe7a3f62e192fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3927e0f62ced0033682d9e9ee69134b3') in 0.008369 seconds
-  Import took 0.011456 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003891 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1583 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.8 MB.
-System memory in use after: 75.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2070.
-Total: 2.333700 ms (FindLiveObjects: 0.227400 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.974000 ms  DeleteObjects: 0.085200 ms)
+  Time since last request: 6.628734 seconds.
+  path: Assets/_Scenes/GameMap.unity
+  artifactKey: Guid(5d96a4df5f37f674f92c9f1028d09e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/GameMap.unity using Guid(5d96a4df5f37f674f92c9f1028d09e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af5734cbb673caa2eb3f15360a72385') in 0.006009 seconds
+  Import took 0.008888 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
