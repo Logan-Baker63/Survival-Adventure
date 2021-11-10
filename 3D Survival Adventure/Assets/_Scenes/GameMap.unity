@@ -661,7 +661,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &622186374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -702,7 +702,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2069,8 +2069,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aebff0696cf731c4e853429195fa26d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerInformation: {fileID: 0}
+  playerInformation: {fileID: 0}
   playerCamera: {fileID: 1284483609}
+  inventorySlots:
+  - {fileID: 1781842039}
+  - {fileID: 941042024}
+  - {fileID: 1563498337}
+  - {fileID: 1923983030}
+  - {fileID: 970625893}
+  - {fileID: 711980421}
+  - {fileID: 2120056305}
+  - {fileID: 415386649}
+  - {fileID: 1711216765}
 --- !u!4 &1842075314
 Transform:
   m_ObjectHideFlags: 0

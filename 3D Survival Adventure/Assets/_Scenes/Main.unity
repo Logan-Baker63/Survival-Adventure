@@ -18447,6 +18447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nickname: 
+  slotOneImage: {fileID: 21300000, guid: a3e08ea6c10020245a3c868ba065f411, type: 3}
 --- !u!1 &1891572737
 GameObject:
   m_ObjectHideFlags: 0

@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviourPun
         }
 
 
+
         ySpeed += Physics.gravity.y * Time.deltaTime;
 
 

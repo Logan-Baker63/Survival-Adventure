@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Photon.Pun;
 using System.IO;
 using TMPro;
@@ -10,29 +11,34 @@ public class GameSetupController : MonoBehaviourPun
 {
 
     private string username;
-    [SerializeField] private GameObject PlayerInformation;
+    [SerializeField] private PlayerInformation playerInformation;
 
     [SerializeField] private CinemachineFreeLook playerCamera = null;
-    
+
+    [SerializeField] private GameObject[] inventorySlots;
+
     // Start is called before the first frame update
     void Start()
     {
         CreatePlayer(); //Creates a networked player object for each player in the room
         UpdateNicknames();
+
+        
+
     }
 
     private void CreatePlayer()
     {
         Debug.Log("Creating player");
         
-        PlayerInformation = GameObject.FindGameObjectWithTag("PlayerInformation");
+        playerInformation = GameObject.FindGameObjectWithTag("PlayerInformation").GetComponent<PlayerInformation>();
 
-        while (PlayerInformation == null)
+        while (playerInformation == null)
         {
-            PlayerInformation = GameObject.FindGameObjectWithTag("PlayerInformation");
+            playerInformation = GameObject.FindGameObjectWithTag("PlayerInformation").GetComponent<PlayerInformation>();
         }
 
-        username = PlayerInformation.GetComponent<PlayerInformation>().nickname;
+        username = playerInformation.nickname;
 
         GameObject newCharacter = PhotonNetwork.Instantiate(Path.Combine("_Prefabs", "Player"), Vector3.zero, Quaternion.identity);
         newCharacter.name = username;
@@ -44,11 +50,21 @@ public class GameSetupController : MonoBehaviourPun
 
         Cursor.lockState = CursorLockMode.Locked;
 
+        UpdateInventorySlots();
+
+
     }
 
     public void UpdateNicknames()
     {
 
+    }
+
+    public void UpdateInventorySlots()
+    {
+        inventorySlots[0].transform.GetChild(1).GetComponent<Image>().sprite = playerInformation.slotOneImage;
+        
+        
     }
 
 }
